@@ -9,5 +9,6 @@ data class SoccerTile(
     val headerImageResId: Int = 0,
     val headerImageUrl: String? = null,
     val teamUrl: String = "",
-    var isFavorite: Boolean = false
+    var isFavorite: Boolean = false,
+    val winPercentage: String = ""
 )

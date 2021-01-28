@@ -64,7 +64,8 @@ class MainActivity : AppCompatActivity(), SoccerTileInterface {
                     headerImageResId = R.drawable.manu_header,
                     headerImageUrl = "https://pbs.twimg.com/media/CrNZMBcWEAILToa?format=jpg&name=4096x4096",
                     teamUrl = "https://www.manutd.com/",
-                    isFavorite = SharedPrefUtil.getSoccerTileFavorite("manchester_united")
+                    isFavorite = SharedPrefUtil.getSoccerTileFavorite("manchester_united"),
+                    winPercentage = "66%"
                 )
             )
             add(
