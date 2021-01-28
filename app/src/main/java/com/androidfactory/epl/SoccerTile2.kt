@@ -1,4 +1,7 @@
 package com.androidfactory.epl
 
-class SoccerTile2 {
-}
+data class SoccerTile2(
+    val id: String = "",
+    val title: String = "",
+    val description: String = ""
+)
