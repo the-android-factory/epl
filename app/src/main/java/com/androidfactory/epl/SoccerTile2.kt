@@ -6,5 +6,6 @@ data class SoccerTile2(
     val description: String = "",
     val imageUrl: String = "",
     val teamName: String = "",
-    val rosterSize: Int = 0
+    val rosterSize: Int = 0,
+    val hasManager: Boolean = false
 )
